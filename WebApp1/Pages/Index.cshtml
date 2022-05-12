@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Objeto _obj = ViewData["Objeto"] as Objeto;
+
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @_obj.nombre @_obj.apellido</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
